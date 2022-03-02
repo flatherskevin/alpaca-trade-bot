@@ -1,4 +1,4 @@
 from tradebot.alpaca import AlpacaClient
 
-def get_clock():
-    return AlpacaClient.get_clock()
+def is_market_open():
+    return AlpacaClient.get_clock().is_open
