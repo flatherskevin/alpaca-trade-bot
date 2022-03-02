@@ -1,4 +1,4 @@
-from tradebot.alpaca_http import get_http_session
+from alpaca import get_http_session
 
 
 def post_trade():

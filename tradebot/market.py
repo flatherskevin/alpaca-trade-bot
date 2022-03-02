@@ -1,5 +1,4 @@
-from tradebot.alpaca_http import AlpacaHttpClient
-
+from tradebot.alpaca import AlpacaClient
 
 def get_clock():
-    return AlpacaHttpClient().get("/clock")
+    return AlpacaClient.get_clock()
