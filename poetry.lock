@@ -18,9 +18,9 @@ yarl = ">=1.0,<2.0"
 speedups = ["aiodns", "brotlipy", "cchardet"]
 
 [[package]]
-name = "alpaca-trade-api"
+name = "alpaca_client-trade-api"
 version = "1.5.1"
-description = "Alpaca API python client"
+description = "alpaca_client API python client"
 category = "main"
 optional = false
 python-versions = "*"
@@ -449,8 +449,8 @@ aiohttp = [
     {file = "aiohttp-3.7.4-cp39-cp39-win_amd64.whl", hash = "sha256:40bd1b101b71a18a528ffce812cc14ff77d4a2a1272dfb8b11b200967489ef3e"},
     {file = "aiohttp-3.7.4.tar.gz", hash = "sha256:5d84ecc73141d0a0d61ece0742bb7ff5751b0657dab8405f899d3ceb104cc7de"},
 ]
-alpaca-trade-api = [
-    {file = "alpaca-trade-api-1.5.1.tar.gz", hash = "sha256:17c9cd1704e5cf49951d5f45d13605d56ad56adcd94b6bdcfd03f6cf77db86d0"},
+alpaca_client-trade-api = [
+    {file = "alpaca_client-trade-api-1.5.1.tar.gz", hash = "sha256:17c9cd1704e5cf49951d5f45d13605d56ad56adcd94b6bdcfd03f6cf77db86d0"},
     {file = "alpaca_trade_api-1.5.1-py3-none-any.whl", hash = "sha256:444c24e80c9a71d628ad438b565bf0862bafac47d86eea6d209200c06fa079c9"},
 ]
 async-timeout = [

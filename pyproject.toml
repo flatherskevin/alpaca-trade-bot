@@ -10,7 +10,7 @@ python = "^3.9"
 pydantic = "^1.9.0"
 requests = "^2.27.1"
 python-dotenv = "^0.19.2"
-alpaca-trade-api = "^1.5.1"
+alpaca_client-trade-api = "^1.5.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"

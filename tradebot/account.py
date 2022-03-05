@@ -1,4 +1,4 @@
-from tradebot.alpaca import AlpacaClient
+from tradebot.alpaca import alpaca_client
 
 def get_equity():
-   return AlpacaClient.get_account().equity
+   return alpaca_client.rest.get_account().equity
